@@ -24,7 +24,7 @@ import com.hninhninwai.xyz.newsapp.ui.NewsViewModel
 import com.hninhninwai.xyz.newsapp.utils.Constants
 import com.hninhninwai.xyz.newsapp.utils.Resource
 
-class HeadlinesFragment : Fragment() {
+class HeadlinesFragment : Fragment(R.layout.fragment_headlines) {
     lateinit var newsViewModel: NewsViewModel
     lateinit var newsAdapter: NewsAdapter
     lateinit var retryBtn: MaterialButton

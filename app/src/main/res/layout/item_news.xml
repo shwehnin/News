@@ -32,7 +32,6 @@
         android:ellipsize="end"
         android:maxLines="2"
         android:text="title"
-        android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintLeft_toRightOf="@+id/articleImage"
@@ -48,7 +47,6 @@
         android:ellipsize="end"
         android:maxLines="2"
         android:text="description"
-        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/articleImage"
         app:layout_constraintTop_toBottomOf="@id/articleTitle" />
